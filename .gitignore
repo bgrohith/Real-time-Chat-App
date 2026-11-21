@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+
+# Build outputs
+dist/
+client/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploads (ignore user uploaded media but keep directory)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/

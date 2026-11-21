@@ -1,0 +1,12 @@
+{
+  "name": "sapphire-realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Full Stack Real-time Chat App (React + Node.js + Express + MongoDB + Socket.io)",
+  "scripts": {
+    "dev": "npm.cmd --prefix server run dev & npm.cmd --prefix client run dev",
+    "seed": "npm.cmd --prefix server run seed",
+    "install:all": "npm.cmd --prefix server install && npm.cmd --prefix client install",
+    "build": "npm.cmd --prefix client run build",
+    "start": "node server/src/server.js"
+  }
+}
